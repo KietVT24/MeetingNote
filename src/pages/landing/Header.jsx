@@ -13,7 +13,7 @@ export default function Header({ user, onLoginClick, t }) {
           <div className="size-12 rounded-full overflow-hidden bg-brand-500/20 grid place-items-center text-brand-600 font-bold">
           <img src="/icon_xinkmeet.png" alt="logo" className="w-full h-full object-cover" />
           </div>
-          <span className="font-semibold tracking-tight">XinK Meet</span>
+          <span className="font-semibold tracking-tight">Note Pro Meeting AI</span>
           <span className="badge ml-3 hidden lg:block">{t('nav.title')}</span>
         </div>
 

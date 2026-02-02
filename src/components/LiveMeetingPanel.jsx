@@ -20,7 +20,7 @@ function extractMeetCode(input) {
 
 export default function LiveMeetingPanel({ onAnalyzed }) {
   const [meetLink, setMeetLink] = useState('')
-  const [botName, setBotName] = useState('XinK Meeting Bot')
+  const [botName, setBotName] = useState('Note Pro Meeting Bot')
   const [language, setLanguage] = useState('Vietnamese')
   const [loading, setLoading] = useState(false)
   const [analyzing, setAnalyzing] = useState(false)
@@ -161,7 +161,7 @@ export default function LiveMeetingPanel({ onAnalyzed }) {
         <input
           type="text"
           className="w-full rounded-2xl border border-cyan-200/60 px-4 py-3 bg-cyan-50/30 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-cyan-400"
-          placeholder="XinK Meeting Bot"
+          placeholder="Note Pro Meeting Bot"
           value={botName}
           onChange={e => setBotName(e.target.value)}
         />

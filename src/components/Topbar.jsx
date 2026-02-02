@@ -25,7 +25,7 @@ export default function Topbar() {
           <Brain size={22} color='white' />
         </div>
         <div className="hidden sm:block">
-          <div className="text-lg font-bold text-cyan-900">XinK Meeting AI</div>
+          <div className="text-lg font-bold text-cyan-900">Note Pro Meeting AI</div>
         </div>
       </div>
 
