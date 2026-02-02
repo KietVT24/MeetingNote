@@ -27,7 +27,7 @@ export const vi = {
       privacy: 'Chúng tôi cam kết bảo vệ thông tin của bạn.',
       placeholders: {
         name: 'Nguyen Van A',
-        center: 'Ví dụ: Công ty Cổ phần XinKGroup',
+        center: 'Ví dụ: Công ty Cổ phần DreamGroup',
         email: 'you@company.com',
         phone: '0862706996 hoặc +84862706996',
         message: 'Mô tả ngắn (số lớp, tính năng cần, thời gian dự kiến...)',
@@ -40,10 +40,10 @@ export const vi = {
       available24: 'Hỗ trợ 24/7',
       phone: '+84775518939',
       email: 'Email',
-      emailAddress: 'hi@xinkgroup.com',
+      emailAddress: 'dreamteam.fpt@gmail.com',
       address: 'Địa chỉ',
       addressText:
-        'Tầng 4, Tòa nhà ICT1, Khu Công viên Phần mềm số 2, đường Như Nguyệt, phường Hải Châu, TP. Đà Nẵng',
+        'FPT University Quy Nhơn, Khu đô thị mới An Phú Thịnh, phường Quy Nhơn Đông, Gia Lai',
     },
   },
 
@@ -51,11 +51,11 @@ export const vi = {
   footer: {
     description:
       'Giải pháp toàn diện cho giáo dục. Tối ưu vận hành, tăng trưởng bền vững.',
-    company: 'CÔNG TY CỔ PHẦN XINKGROUP',
+    company: 'CÔNG TY CỔ PHẦN DREAMGROUP',
     companyInfo:
-      'Mã số DN: 0402241823. Giấy ĐKKD do Sở KH&ĐT Đà Nẵng cấp lần đầu ngày 12/07/2024.',
+      '',
     address:
-      'Tầng 4, Tòa nhà ICT1, Khu Công viên Phần mềm số 2, đường Như Nguyệt, phường Hải Châu, TP. Đà Nẵng, Việt Nam',
+      'FPT University Quy Nhơn, Khu đô thị mới An Phú Thịnh, phường Quy Nhơn Đông, Gia Lai',
 
     products: {
       title: 'Sản phẩm',
@@ -74,7 +74,7 @@ export const vi = {
     },
 
     legal: {
-      copyright: '© 2025 XinKGroup. Bảo lưu mọi quyền.',
+      copyright: '© 2025 DreamGroup. Bảo lưu mọi quyền.',
       terms: 'Điều khoản',
       privacy: 'Bảo mật',
       policy: 'Chính sách',

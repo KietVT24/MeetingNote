@@ -11,7 +11,7 @@ export default function Footer({ t }) {
           <div className="md:col-span-2">
             {/* Logo sáng hơn nền + đứng trước phần giới thiệu */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="font-bold text-white text-xl">XINK MEET</span>
+              <span className="font-bold text-white text-xl">NOTE PRO</span>
             </div>
 
             {/* Giới thiệu công ty */}

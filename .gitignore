@@ -2,8 +2,8 @@
 node_modules/
 
 # Env file
-
-
+.env
+.env.prod
 # Logs
 logs/
 *.log
