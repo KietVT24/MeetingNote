@@ -11,7 +11,7 @@ export default function Header({ user, onLoginClick, t }) {
       <nav className="mt-5 max-w-7xl mx-auto flex items-center justify-between lg:px-10 py-4 bg-white/95 backdrop-blur-md supports-[backdrop-filter]:bg-white/85 border border-slate-200/70 ring-1 ring-black/5 shadow-md rounded-full">
         <div className="flex items-center gap-3">
           <div className="size-12 rounded-full overflow-hidden bg-brand-500/20 grid place-items-center text-brand-600 font-bold">
-          <img src="/icon_xinkmeet.png" alt="logo" className="w-full h-full object-cover" />
+          <img src="/xink.png" alt="logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-semibold tracking-tight">Note Pro Meeting AI</span>
           <span className="badge ml-3 hidden lg:block">{t('nav.title')}</span>

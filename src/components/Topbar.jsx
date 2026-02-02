@@ -1,7 +1,7 @@
 import { useUI } from '../store/ui'
 import { useAuth } from '../contexts/AuthContext'
 import { useNavigate, useLocation } from 'react-router-dom'
-import { Brain, Settings } from 'lucide-react'
+import { Settings } from 'lucide-react'
 
 export default function Topbar() {
   const { lang, setLang } = useUI()
@@ -21,8 +21,8 @@ export default function Topbar() {
         className="flex items-center gap-3 cursor-pointer"
         onClick={() => navigate('/meetings')}
       >
-        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shadow-lg">
-          <Brain size={22} color='white' />
+        <div className="w-9 h-9 rounded-full overflow-hidden bg-cyan-500/20 grid place-items-center">
+          <img src="/xink.png" alt="logo" className="w-full h-full object-cover" />
         </div>
         <div className="hidden sm:block">
           <div className="text-lg font-bold text-cyan-900">Note Pro Meeting AI</div>
@@ -63,7 +63,7 @@ export default function Topbar() {
             <div className="text-xs text-emerald-600">Free Plan</div>
           </div>
           <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-cyan-200">
-            <img src="/icon_xinkmeet.png" alt="" className="w-full h-full object-cover" />
+            <img src="/meet.png" alt="" className="w-full h-full object-cover" />
           </div>
           <button
             onClick={handleLogout}
