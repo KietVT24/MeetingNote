@@ -1,0 +1,31 @@
+/* Uploaded site CSS for reference */
+.gradient-background-orange {
+   background:  #5EFFFA;
+}
+.gradient-background-green {
+    background: linear-gradient(135deg, #4ecdc4, #44a08d);
+ }
+ .gradient-background-purple {
+    background: #149BB9;
+
+ }
+ .gradient-background-1 {
+    background: #7DB9D3;
+
+ }
+ .gradient-background-2 {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+
+ }
+.shadow-custom {
+    background: #ffffff59;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, .4);
+    box-shadow: 0 12px 40px #0000001f;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+ }
