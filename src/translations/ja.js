@@ -27,9 +27,9 @@ export const ja = {
       privacy: 'お客様の情報を保護することをお約束します。',
       placeholders: {
         name: '山田太郎',
-        center: '例：XinKGroup株式会社',
+        center: '例：DreamGroup株式会社',
         email: 'you@company.com',
-        phone: '0862706996 または +84862706996',
+        phone: '02567308668 または +842567308668',
         message: '簡単な説明（クラス数、必要な機能、予定時期...）',
       },
       phoneFormat: '形式：0XXXXXXXXX または +84XXXXXXXXX',
@@ -38,12 +38,12 @@ export const ja = {
     info: {
       hotline: 'ホットライン',
       available24: '24時間365日サポート',
-      phone: '+84775518939',
+      phone: '+842567308668',
       email: 'メール',
-      emailAddress: 'hi@xinkgroup.com',
+      emailAddress: 'dreamteam.fpt@gmail.com',
       address: '住所',
       addressText:
-        'ベトナム・ダナン市ハイチャウ区ニューニエット通りソフトウェアパーク2号ICT1ビル4階',
+        'FPT University Quy Nhon, An Phu Thinh ニュータウン, Quy Nhon Dong 区, Gia Lai',
     },
   },
 
@@ -51,11 +51,11 @@ export const ja = {
   footer: {
     description:
       '教育のための総合ソリューション。運営を最適化し、持続可能な成長を実現。',
-    company: 'XINKGROUP株式会社',
+    company: 'DREAMGROUP株式会社',
     companyInfo:
-      '企業コード：0402241823。ダナン市計画投資局が2024年7月12日に初めて発行した営業許可証。',
+      '',
     address:
-      'ベトナム・ダナン市ハイチャウ区ニューニエット通りソフトウェアパーク2号ICT1ビル4階',
+      'FPT University Quy Nhon, An Phu Thinh ニュータウン, Quy Nhon Dong 区, Gia Lai',
 
     products: {
       title: '製品',
@@ -74,7 +74,7 @@ export const ja = {
     },
 
     legal: {
-      copyright: '© 2025 XinKGroup. All rights reserved.',
+      copyright: '© 2025 DreamGroup. All rights reserved.',
       terms: '利用規約',
       privacy: 'プライバシー',
       policy: 'ポリシー',
@@ -198,7 +198,7 @@ export const ja = {
         id: 'pro',
         badge: 'アドバンス',
         name: 'プロ',
-        price: '₫299,000',
+        price: '₫49,000',
         note: '月額課金。いつでもキャンセル可能。',
         features: ['無制限要約', 'AI検索と回答', 'エクスポートと統合'],
       },

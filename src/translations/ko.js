@@ -27,9 +27,9 @@ export const ko = {
       privacy: '귀하의 정보를 안전하게 보호할 것을 약속드립니다.',
       placeholders: {
         name: '홍길동',
-        center: '예: XinKGroup 주식회사',
+        center: '예: DreamGroup 주식회사',
         email: 'you@company.com',
-        phone: '0862706996 또는 +84862706996',
+        phone: '02567308668 또는 +842567308668',
         message: '간단한 설명 (수업 수, 필요한 기능, 예상 일정...)',
       },
       phoneFormat: '형식: 0XXXXXXXXX 또는 +84XXXXXXXXX',
@@ -40,21 +40,21 @@ export const ko = {
       available24: '24/7 지원',
       phone: '+84775518939',
       email: '이메일',
-      emailAddress: 'hi@xinkgroup.com',
+      emailAddress: 'dreamteam.fpt@gmail.com',
       address: '주소',
       addressText:
-        '베트남 다낭시 하이차우구 느녀엣로 소프트웨어 파크 2호 ICT1 빌딩 4층',
+        'FPT University Quy Nhon, An Phu Thinh 신도시, Quy Nhon Dong 구, Gia Lai',
     },
   },
 
   // Footer
   footer: {
     description: '교육을 위한 종합 솔루션. 운영 최적화, 지속 가능한 성장.',
-    company: 'XINKGROUP 주식회사',
+    company: 'DREAMGROUP 주식회사',
     companyInfo:
-      '사업자 번호: 0402241823. 다낭 기획투자부에서 2024년 7월 12일에 발급한 사업자 등록증.',
+      '',
     address:
-      '베트남 다낭시 하이차우구 느녀엣로 소프트웨어 파크 2호 ICT1 빌딩 4층',
+      'FPT University Quy Nhon, An Phu Thinh 신도시, Quy Nhon Dong 구, Gia Lai',
 
     products: {
       title: '제품',
@@ -73,7 +73,7 @@ export const ko = {
     },
 
     legal: {
-      copyright: '© 2025 XinKGroup. All rights reserved.',
+      copyright: '© 2025 DreamGroup. All rights reserved.',
       terms: '이용약관',
       privacy: '개인정보처리방침',
       policy: '정책',
@@ -198,7 +198,7 @@ export const ko = {
         id: 'pro',
         badge: '고급',
         name: 'Pro',
-        price: '₫299,000',
+        price: '₫49,000',
         note: '월별 결제. 언제든지 취소.',
         features: ['무제한 요약', 'AI 검색 및 답변', '내보내기 및 통합'],
       },

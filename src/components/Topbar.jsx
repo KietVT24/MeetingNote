@@ -63,7 +63,7 @@ export default function Topbar() {
             <div className="text-xs text-emerald-600">Free Plan</div>
           </div>
           <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-cyan-200">
-            <img src="/meet.png" alt="" className="w-full h-full object-cover" />
+            <img src="/xink.png" alt="" className="w-full h-full object-cover" />
           </div>
           <button
             onClick={handleLogout}

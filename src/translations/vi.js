@@ -29,7 +29,7 @@ export const vi = {
         name: 'Nguyen Van A',
         center: 'Ví dụ: Công ty Cổ phần DreamGroup',
         email: 'you@company.com',
-        phone: '0862706996 hoặc +84862706996',
+        phone: '02567308668 hoặc +842567308668',
         message: 'Mô tả ngắn (số lớp, tính năng cần, thời gian dự kiến...)',
       },
       phoneFormat: 'Định dạng: 0XXXXXXXXX hoặc +84XXXXXXXXX',
@@ -203,7 +203,7 @@ export const vi = {
         id: 'pro',
         badge: 'Nâng cao',
         name: 'Pro',
-        price: '₫299,000',
+        price: '₫49,000',
         note: 'Thanh toán hàng tháng. Hủy bất cứ lúc nào.',
         features: [
           'Tóm tắt không giới hạn',

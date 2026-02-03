@@ -27,9 +27,9 @@ export const en = {
       privacy: 'We are committed to protecting your information.',
       placeholders: {
         name: 'John Doe',
-        center: 'Example: XinKGroup Corporation',
+        center: 'Example: DreamGroup Corporation',
         email: 'you@company.com',
-        phone: '0862706996 or +84862706996',
+        phone: '02567308668 or +842567308668',
         message:
           'Brief description (number of classes, features needed, expected timeline...)',
       },
@@ -39,12 +39,12 @@ export const en = {
     info: {
       hotline: 'Hotline',
       available24: '24/7 Support',
-      phone: '+84775518939',
+      phone: '+842567308668',
       email: 'Email',
-      emailAddress: 'hi@xinkgroup.com',
+      emailAddress: 'dreamteam.fpt@gmail.com',
       address: 'Address',
       addressText:
-        '4th Floor, ICT1 Building, Software Park No. 2, Nhu Nguyet Street, Hai Chau Ward, Da Nang City',
+        'FPT University Quy Nhon, An Phu Thinh New Urban Area, Quy Nhon Dong Ward, Gia Lai',
     },
   },
 
@@ -52,11 +52,11 @@ export const en = {
   footer: {
     description:
       'Comprehensive solution for education. Optimize operations, sustainable growth.',
-    company: 'XINKGROUP CORPORATION',
+    company: 'DREAMGROUP CORPORATION',
     companyInfo:
-      'Business code: 0402241823. Business registration certificate issued by Da Nang Department of Planning and Investment on July 12, 2024.',
+      '',
     address:
-      '4th Floor, ICT1 Building, Software Park No. 2, Nhu Nguyet Street, Hai Chau Ward, Da Nang City, Vietnam',
+      'FPT University Quy Nhon, An Phu Thinh New Urban Area, Quy Nhon Dong Ward, Gia Lai',
 
     products: {
       title: 'Products',
@@ -75,7 +75,7 @@ export const en = {
     },
 
     legal: {
-      copyright: '© 2025 XinKGroup. All rights reserved.',
+      copyright: '© 2025 DreamGroup. All rights reserved.',
       terms: 'Terms',
       privacy: 'Privacy',
       policy: 'Policy',
@@ -199,7 +199,7 @@ export const en = {
         id: 'pro',
         badge: 'Advanced',
         name: 'Pro',
-        price: '$299,000',
+        price: '₫49,000',
         note: 'Monthly billing. Cancel anytime.',
         features: [
           'Unlimited summaries',

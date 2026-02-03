@@ -26,9 +26,9 @@ export const zh = {
       privacy: '我们承诺保护您的信息。',
       placeholders: {
         name: '张三',
-        center: '例如：XinKGroup 股份有限公司',
+        center: '例如：DreamGroup 股份有限公司',
         email: 'you@company.com',
-        phone: '0862706996 或 +84862706996',
+        phone: '02567308668 或 +842567308668',
         message: '简要描述（班级数量、所需功能、预期时间...）',
       },
       phoneFormat: '格式：0XXXXXXXXX 或 +84XXXXXXXXX',
@@ -39,19 +39,19 @@ export const zh = {
       available24: '24/7 支持',
       phone: '+84775518939',
       email: '邮箱',
-      emailAddress: 'hi@xinkgroup.com',
+      emailAddress: 'dreamteam.fpt@gmail.com',
       address: '地址',
-      addressText: '越南岘港市海州郡如月路软件园2号ICT1大楼4层',
+      addressText: 'FPT University Quy Nhon, An Phu Thinh 新城区, Quy Nhon Dong 区, Gia Lai',
     },
   },
 
   // Footer
   footer: {
     description: '教育综合解决方案。优化运营，可持续增长。',
-    company: 'XINKGROUP 股份有限公司',
+    company: 'DREAMGROUP 股份有限公司',
     companyInfo:
-      '企业代码：0402241823。岘港市计划投资厅于2024年7月12日首次颁发的营业执照。',
-    address: '越南岘港市海州郡如月路软件园2号ICT1大楼4层',
+      '',
+    address: 'FPT University Quy Nhon, An Phu Thinh 新城区, Quy Nhon Dong 区, Gia Lai',
 
     products: {
       title: '产品',
@@ -70,7 +70,7 @@ export const zh = {
     },
 
     legal: {
-      copyright: '© 2025 XinKGroup. 保留所有权利。',
+      copyright: '© 2025 DreamGroup. 保留所有权利。',
       terms: '条款',
       privacy: '隐私',
       policy: '政策',
@@ -189,7 +189,7 @@ export const zh = {
         id: 'pro',
         badge: '高级',
         name: '专业版',
-        price: '₫299,000',
+        price: '₫49,000',
         note: '按月付费。随时取消。',
         features: ['无限摘要', 'AI搜索和答案', '导出和集成'],
       },
