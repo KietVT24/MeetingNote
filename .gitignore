@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Env file
+.env
+.env.prod
+
+# Logs
+logs/
+*.log
+
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Test output
+coverage/
+
+# Optional: build artifacts
+dist/
+build/

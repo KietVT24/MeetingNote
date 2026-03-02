@@ -1,0 +1,13 @@
+# Ignore files for Docker context
+node_modules
+npm-debug.log
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+.nyc_output
+coverage
+.vscode
+.idea
