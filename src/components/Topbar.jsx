@@ -65,7 +65,7 @@ export default function Topbar() {
                 <span className="text-xs font-semibold text-amber-600">⏳ Chờ duyệt</span>
               ) : (
                 <span className="text-xs text-slate-600">
-                  {user?.trialCount || 0} lượt dùng thử
+                  {user?.sessionCount || 0} lượt dùng
                 </span>
               )}
               {!user?.isPremium && user?.paymentStatus !== 'pending_approval' && (
