@@ -176,7 +176,8 @@ export const zh = {
   pricing: {
     title: '价格方案',
     subtitle: '为您的团队选择完美方案。',
-    contactUs: '联系我们',
+    contactUs: '立即付款',
+    customPlan: '定制方案',
     plans: [
       {
         id: 'starter',
@@ -198,7 +199,7 @@ export const zh = {
         id: 'enterprise',
         badge: '企业',
         name: '定制版',
-        price: '联系我们',
+        price: '定制方案',
         note: '为您的企业定制解决方案',
         features: ['SSO 和管理', '管理和分析', '专属支持'],
       },

@@ -185,7 +185,8 @@ export const ko = {
   pricing: {
     title: '요금제',
     subtitle: '팀에 완벽한 플랜을 선택하세요.',
-    contactUs: '문의하기',
+    contactUs: '결제 진행',
+    customPlan: '맞춤 플랜',
     plans: [
       {
         id: 'starter',
@@ -207,7 +208,7 @@ export const ko = {
         id: 'enterprise',
         badge: '기업',
         name: 'Custom',
-        price: '문의하기',
+        price: '맞춤 플랜',
         note: '귀사를 위한 맞춤형 솔루션',
         features: ['SSO 및 관리', '관리 및 분석', '전담 지원'],
       },

@@ -186,7 +186,8 @@ export const en = {
   pricing: {
     title: 'Pricing',
     subtitle: 'Choose the perfect plan for your team.',
-    contactUs: 'Contact us',
+    contactUs: 'Proceed to Payment',
+    customPlan: 'Custom Plan',
     plans: [
       {
         id: 'starter',
@@ -212,7 +213,7 @@ export const en = {
         id: 'enterprise',
         badge: 'Enterprise',
         name: 'Custom',
-        price: 'Contact us',
+        price: 'Custom Plan',
         note: 'Custom solution for your business',
         features: ['SSO & admin', 'Admin & analytics', 'Dedicated support'],
       },

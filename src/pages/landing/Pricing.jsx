@@ -1,10 +1,12 @@
 import Section from "./Section";
 import { CheckCircle2 } from "lucide-react";
 import { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import useScrollReveal from "../../hooks/useScrollReveal";
 
-function PlanCard({ id, note, badge, name, price, features, highlight=false, t }) {
+function PlanCard({ id, note, badge, name, price, features, highlight = false, t }) {
   const [showAll, setShowAll] = useState(false);
+  const navigate = useNavigate();
 
   const VISIBLE_LIMIT = 8;
   const hasMore = Array.isArray(features) && features.length > VISIBLE_LIMIT;
@@ -18,8 +20,37 @@ function PlanCard({ id, note, badge, name, price, features, highlight=false, t }
     const y = el.getBoundingClientRect().top + window.scrollY - NAVBAR_OFFSET;
     window.scrollTo({ top: y, behavior: 'smooth' });
   }
-  
-  
+
+  // Xác định nút CTA theo từng gói
+  function renderCTA() {
+    if (id === 'starter') {
+      // Gói miễn phí: không hiển thị nút
+      return null;
+    }
+
+    if (id === 'enterprise') {
+      // Gói doanh nghiệp: navigate đến /payment
+      return (
+        <button
+          onClick={() => navigate('/payment')}
+          className="btn w-full justify-center bg-gradient-to-r from-slate-700 to-slate-900 hover:from-slate-800 hover:to-slate-950 text-white"
+        >
+          {t('pricing.customPlan')}
+        </button>
+      );
+    }
+
+    // Gói Pro: Tiến hành thanh toán → navigate đến /payment
+    return (
+      <button
+        onClick={() => navigate('/payment')}
+        className="btn w-full justify-center"
+      >
+        {t('pricing.contactUs')}
+      </button>
+    );
+  }
+
   return (
     <div className={` relative rounded-2xl border ${highlight ? 'border-blue-200' : 'border-slate-200'} bg-white shadow-sm h-full flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-500 group hover-lift`}>
       {/* Shimmer */}
@@ -75,14 +106,9 @@ function PlanCard({ id, note, badge, name, price, features, highlight=false, t }
           </button>
         )}
 
+        {/* CTA Button */}
         <div className="mt-auto pt-6">
-          <button
-            as="button"
-            onClick={scrollToContact}
-            className="btn w-full justify-center"
-          >
-            {t('pricing.contactUs')}
-          </button>
+          {renderCTA()}
         </div>
       </div>
 
@@ -132,5 +158,3 @@ export default function Pricing({ t }) {
     </Section>
   );
 }
-
-     

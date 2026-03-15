@@ -185,7 +185,8 @@ export const ja = {
   pricing: {
     title: '料金プラン',
     subtitle: 'チームに最適なプランをお選びください。',
-    contactUs: 'お問い合わせ',
+    contactUs: 'お支払いへ進む',
+    customPlan: 'カスタムプラン',
     plans: [
       {
         id: 'starter',
@@ -207,7 +208,7 @@ export const ja = {
         id: 'enterprise',
         badge: 'エンタープライズ',
         name: 'カスタム',
-        price: 'お問い合わせ',
+        price: 'カスタムプラン',
         note: 'お客様のビジネス向けカスタムソリューション',
         features: ['SSOと管理', '管理と分析', '専任サポート'],
       },

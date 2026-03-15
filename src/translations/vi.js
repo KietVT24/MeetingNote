@@ -186,7 +186,8 @@ export const vi = {
   pricing: {
     title: 'Bảng giá',
     subtitle: 'Chọn gói phù hợp cho đội ngũ của bạn.',
-    contactUs: 'Liên hệ',
+    contactUs: 'Tiến Hành Thanh Toán',
+    customPlan: 'Gói tùy chỉnh',
     plans: [
       {
         id: 'starter',
@@ -216,7 +217,7 @@ export const vi = {
         id: 'enterprise',
         badge: 'Doanh nghiệp',
         name: 'Custom',
-        price: 'Liên hệ chúng tôi',
+        price: 'Gói tùy chỉnh',
         note: 'Giải pháp tùy chỉnh cho doanh nghiệp của bạn',
         features: ['SSO & quản trị', 'Quản trị & phân tích', 'Hỗ trợ riêng'],
       },
