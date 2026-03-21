@@ -210,6 +210,12 @@ export default function Payment() {
                 </div>
               </div>
 
+              <div className="w-full max-w-sm bg-indigo-50 border border-indigo-200 rounded-xl p-3 text-center">
+                <p className="text-sm text-indigo-800">
+                  Nội dung gửi tiền: <span className="font-bold text-indigo-950">{user?.name || user?.email} mua {sessions} lượt</span>
+                </p>
+              </div>
+
               <p className="text-xs text-slate-500 text-center">Sử dụng app ngân hàng hoặc VNPay, MoMo để quét mã</p>
 
               {/* Messages */}
@@ -316,6 +322,12 @@ export default function Payment() {
                       <p className="text-sm text-slate-700">Tài khoản: <span className="font-bold font-mono text-slate-900">100878022719</span></p>
                       <p className="text-xs text-slate-500">VietinBank – CN Bình Định – PGD Vũ Bảo</p>
                     </div>
+                  </div>
+
+                  <div className="w-full max-w-sm bg-indigo-50 border border-indigo-200 rounded-xl p-3 text-center">
+                    <p className="text-sm text-indigo-800">
+                      Nội dung gửi tiền: <span className="font-bold text-indigo-950">{user?.name || user?.email} thanh toán premium</span>
+                    </p>
                   </div>
 
                   <p className="text-xs text-slate-500 text-center">Sử dụng app ngân hàng hoặc VNPay, MoMo để quét mã</p>
